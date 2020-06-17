@@ -50,6 +50,6 @@ print(len(a))
 
 
 
-a = input("请输入:",)
-b = input("请输入:",)
+a = input("请输入:")
+b = input("请输入:")
 print("两端字符串长度是:",len(a)+len(b))
