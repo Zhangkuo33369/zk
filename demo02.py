@@ -52,7 +52,9 @@ a.extend(xx)   更简单一点print(a+xx)
 2、字典的结构必须是 键值对的结构  key:value   key相当于自定义了下标
 3、字典的取值是通过key取value   
 """  
- #取值  (通过key取value)
+"""
+#取值  (通过key取value)
+ 
 a={"name":"张三",1:"李白","age":25}
 print(a["张三"])
 #新增
@@ -70,3 +72,18 @@ a.update(name="赵四") #修改
 del a["name"]
 del a[0]
 #原来的key存在就是修改，不存在就是新增
+"""
+
+
+
+#作业
+#获取用户的个人信息并储存到字典中
+name = input("请输入你的姓名:")
+age = input("请输入年龄:")
+sex = input("请输入性别:")
+userinfo={}
+userinfo.update(name=name,age=age,sex=sex)
+# userinfo["name"]=name
+# userinfo["age"]=age
+# userinfo["sex"]=sex
+print(userinfo)
