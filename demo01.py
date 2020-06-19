@@ -31,7 +31,7 @@ name = "张三"   #把张三这个赋值付给了名字叫name的这个变量
 #str转换成其他需要满足长得像
 """
 #a=int(2666)
-#print(type(a) )
+#print(type(a) ) 这是用看是什么数据类型的
 """
 a = input("请输入:")
 b = input("请输入:")

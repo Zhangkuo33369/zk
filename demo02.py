@@ -76,14 +76,3 @@ del a[0]
 
 
 
-#作业
-#获取用户的个人信息并储存到字典中
-name = input("请输入你的姓名:")
-age = input("请输入年龄:")
-sex = input("请输入性别:")
-userinfo={}
-userinfo.update(name=name,age=age,sex=sex)
-# userinfo["name"]=name
-# userinfo["age"]=age
-# userinfo["sex"]=sex
-print(userinfo)
