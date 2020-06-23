@@ -34,6 +34,7 @@ while a<10:
     a = a+2
 """
 #遍历，每个值都读一遍包括符号
+"""
 a = "你好,今天你吃了吗?"
 for i in a:
     print (i)   #print循环的运行了10遍
@@ -43,3 +44,9 @@ for i in range(0,100):   #左闭右开  到99
 
 b =list(range(0,100,3))  #list数组   3为步进/步长 显示0，3，6，9
 print(b)
+"""
+
+for i in range(0,10):
+    if i == 4:
+        continue             #i=4 结束本次跳过，开始下一个循环
+    print(i)                 #break  终止循环到此为止以后都别玩了。 嵌套循环时只针对一层终止=continue 
