@@ -19,14 +19,24 @@ try:
 except :
     print("上面写错了")
 
+<<<<<<< HEAD
 #包》模块》类》方法》变量   包含且并列（都可以单独拿出来使用，变量a=1，方法b=jiafa（1，1）） .py模块
+=======
+#包》模块》类》方法》变量   包含且并列（都可以单独拿出来使用，变量a=1，方法b=jiafa（1，1）） 
+>>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
 # print，jiafa，都是方法
 # 异常类（处理代码报错告诉你哪错了）   
  
 try:
+<<<<<<< HEAD
     print(s+2)     #这里如果是正确的正常运行不输出下面的，直接输出正确的。上面的错了才输入下面的
 except Exception as e:
     print("上面写错了",e)   #e告诉你错在哪
+=======
+    print(s+2)
+except Exception as e:
+    print("上面写错了",e)
+>>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
 
 
 #包的运用  python自带包
@@ -35,14 +45,23 @@ for i in range(10):
     time.sleep(1)  #每个一秒遍历一个
     print(i) 
 
+<<<<<<< HEAD
 """    
 import random生成随机数
 a = random.randint(100,1000)
 print(a)
 """
+=======
+>>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
 """
  第三方的包 pip install 包名
            pip uninstall 包名
            pip list      
+<<<<<<< HEAD
  这些在终端操作也可以在cmd上弄（直接在下面弄）  与loadrunner冲突，，需要pip3  ~~~~   位置在环境变量根目录里面
 """                   
+=======
+ 这些在终端操作也可以在cmd上弄  与loadrunner冲突，，需要pip3  ~~~~   位置在环境变量根目录里面
+"""       
+            
+>>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb

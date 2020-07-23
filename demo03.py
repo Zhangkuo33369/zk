@@ -42,11 +42,20 @@ for i in a:
 for i in range(0,100):   #左闭右开  到99
     print(i)
 
+<<<<<<< HEAD
 b =list(range(0,100,3))  #转换成list数组   3为步进/步长 显示0，3，6，9
+=======
+b =list(range(0,100,3))  #list数组   3为步进/步长 显示0，3，6，9
+>>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
 print(b)
 """
 
 for i in range(0,10):
     if i == 4:
+<<<<<<< HEAD
         continue            #i=4 结束本次跳过，开始下一个循环
     print(i)                 #break  终止循环到此为止以后都别玩了。 嵌套循环时只针对一层终止=continue 
+=======
+        continue             #i=4 结束本次跳过，开始下一个循环
+    print(i)                 #break  终止循环到此为止以后都别玩了。 嵌套循环时只针对一层终止=continue 
+>>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
