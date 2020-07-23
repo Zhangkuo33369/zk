@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #方法/循环    自定义方法（len，range print为自带的方法）初学方法可看成函数
-=======
-#方法/循环
->>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
 
 """
 #自动判断账号长度5---8位且小写
@@ -19,12 +15,7 @@ def checkname(username):       #方法的声明  方法的名字（可省略） 
         print("账号不符合")
 checkname("7dfsdf")
 # a = "7dfsdf"
-<<<<<<< HEAD
 # checkname(a)                       
-=======
-# checkname(a)
-checkname()                        
->>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
 """         
 #""""里面不能有"""了！且必须顶头 ，#不显示说明只有"""才显示且必须tab对其
 

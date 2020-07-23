@@ -5,15 +5,9 @@
 面向对象编程 
 类里面的所有方法必须传一个参数self
 """
-<<<<<<< HEAD
 class GirlFriend(object):         #object祖宗类（可省略），下面init其实就是对object的方法做了一个重写
     def __init__(self):           #初始化  
         self.sex="女"              #基本属性  写死了
-=======
-class GirlFriend():
-    def __init__(self):           #初始化  这里是写死了 
-        self.sex="女"
->>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
         self.high="170"
         self.weight="110"
 
@@ -33,7 +27,6 @@ class GirlFriend():
         print("怡红院头牌")    
 
 #类的实例化
-<<<<<<< HEAD
 wanqian = GirlFriend()
 wanqian.caiyi(3)
 wanqian.cook()
@@ -69,30 +62,3 @@ jingtian = Nvpengyou("女","170cm","120")
 jingtian.fly()
 print(jingtian.high,jingtian.sex,jingtian.weight)
 
-=======
-wanqian = GirlFriend()                                #死的
-wanqian.caiyi(3)
-wanqian.work()
-print(wanqian.high)
-
-class Fangzi():
-    def __init__(self,sex,high,weight):           #初始化  这里是写活了
-        self.sex=sex
-        self.high=high
-        self.weight=weight
-    def Fly(self):
-        print("起飞")    
-liuyifei = Fangzi ("女","170cm","120")             #活的，填数据
-liuyifei.Fly() 
-    
-
-#类的继承 pass无意义怕没写完报错
-class Nvpengyou(Fangzi):
-    pass
-liuyifei = Nvpengyou("女","170cm","120") 
-liuyifei.Fly()
-"""
-   Fangzi父类
-   Nvpengyou子类
-"""
->>>>>>> abe1db99f275d0501ca01e7d44804b117baae0cb
